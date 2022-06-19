@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bc0c462-97f0-4895-bf50-105041cf257c" name="Default Changelist" comment="">
+    <list default="true" id="0bc0c462-97f0-4895-bf50-105041cf257c" name="Default Changelist" comment="Configurando Security">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/domain/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/exception/SenhaInvalidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/rest/ApiErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/rest/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/rest/dto/CredenciaisDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/rest/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/service/impl/UsuarioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mehir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mehir.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/domain/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/mehikhmdan/io/github/mehirkhamdan/domain/repository/PessoaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/mehikhmdan/io/github/mehirkhamdan/domain/entity/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/mehikhmdan/io/github/mehirkhamdan/domain/entity/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/mehikhmdan/io/github/mehirkhamdan/domain/entity/Usuario$UsuarioBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/mehikhmdan/io/github/mehirkhamdan/domain/entity/Usuario$UsuarioBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/mehikhmdan/io/github/mehirkhamdan/domain/entity/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/mehikhmdan/io/github/mehirkhamdan/domain/entity/Usuario.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,28 +84,49 @@
       <option name="presentableId" value="Default" />
       <updated>1655583809874</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criacao relacionamento Jpa">
+      <created>1655647048384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655647048385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criacao relacionamento Jpa" />
+    <MESSAGE value="Configurando Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurando Security" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1655593721054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="230" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1655593721054" />
-    <state width="1323" height="413" key="GridCell.Tab.0.bottom" timestamp="1655596009340">
+    <state x="275" y="0" key="CommitChangelistDialog2" timestamp="1655648828848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="413" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655596009340" />
-    <state width="1323" height="413" key="GridCell.Tab.0.center" timestamp="1655596009340">
+    <state x="275" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1655648828848" />
+    <state width="1323" height="426" key="GridCell.Tab.0.bottom" timestamp="1655646963827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="413" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655596009340" />
-    <state width="1323" height="413" key="GridCell.Tab.0.left" timestamp="1655596009339">
+    <state width="1323" height="426" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655646963827" />
+    <state width="1323" height="426" key="GridCell.Tab.0.center" timestamp="1655646963826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="413" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655596009339" />
-    <state width="1323" height="413" key="GridCell.Tab.0.right" timestamp="1655596009340">
+    <state width="1323" height="426" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655646963826" />
+    <state width="1323" height="426" key="GridCell.Tab.0.left" timestamp="1655646963825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="413" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655596009340" />
+    <state width="1323" height="426" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655646963825" />
+    <state width="1323" height="426" key="GridCell.Tab.0.right" timestamp="1655646963826">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="426" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655646963826" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1655647073211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655647073211" />
   </component>
 </project>
