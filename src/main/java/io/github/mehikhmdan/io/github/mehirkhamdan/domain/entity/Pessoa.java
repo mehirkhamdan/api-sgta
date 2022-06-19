@@ -41,5 +41,9 @@ public class Pessoa {
     @Column(name = "tipo")
     private PessoaTipo tipo;
 
-    //private Usuario usuario;
+    @OneToOne(mappedBy = "pessoa")
+    private Usuario usuario;
+
+
+
 }

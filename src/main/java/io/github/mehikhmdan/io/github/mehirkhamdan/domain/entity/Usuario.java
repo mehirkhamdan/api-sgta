@@ -27,5 +27,8 @@ public class Usuario {
     private String senha;
     @Column
     private boolean admin;
+    @OneToOne
+    @JoinColumn(name = "pessoa_id")
+    private Pessoa pessoa;
 
 }
